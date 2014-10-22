@@ -15,6 +15,8 @@
 
 この Part III ではまず MenuState から PlayState への移動をプレイヤーが行えるようにする。メニューではオプションなども設定できるようにしたいが、さしあたり PlayState に移行する "Play" というボタンのみを設置する。
 
+### Play ボタンの設置とメニュー画面からの遷移
+
 MenuState クラスの定義に注目する。
 
 ```haxe
@@ -64,3 +66,4 @@ _btnPlay = FlxDestroyUtil.destroy(_btnPlay);
 
 これでメニュー画面が完成した。
 
+### 
